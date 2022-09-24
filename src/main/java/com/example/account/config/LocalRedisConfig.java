@@ -8,7 +8,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 @Configuration
-public class LocaRedisConfig {
+public class LocalRedisConfig {
     @Value("${spring.redis.port}")
     private int redisPort;
 

@@ -1,5 +1,6 @@
-package com.example.account.domain;
+package com.example.account.dto;
 
+import com.example.account.domain.Account;
 import lombok.*;
 
 import java.time.LocalDateTime;

@@ -14,4 +14,6 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
     //솔직히 스트림쓰면서 람다식 쓰는거 별로 안좋아 보임...
 
     Integer countByAccountUser(AccountUser accountUser);
+
+    Optional<Account> findByAccountNumber(String AccountNumber);
 }
